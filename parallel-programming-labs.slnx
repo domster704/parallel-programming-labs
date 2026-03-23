@@ -3,5 +3,6 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
-  <Project Path="lab1-time-measurement/lab1-time-measurement.vcxproj" />
+  <Project Path="lab1-time-measurement/lab1-time-measurement.vcxproj" Id="37627a03-ddca-427f-9610-2af7217b1f5f" />
+  <Project Path="lab2-matrix-optimization/lab2-matrix-optimization.vcxproj" Id="e61f014e-27d4-4447-a54b-3feab9cbf287" />
 </Solution>

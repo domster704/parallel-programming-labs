@@ -45,7 +45,7 @@ static double calcAvg(std::vector<double>& t)
 
 int main()
 {
-	const int K = 100;
+	const int K = 1;
 
 	std::vector<double> tick(K), perf(K), tsc(K);
 
