@@ -1,4 +1,4 @@
-[23.03.2026 14:34] Григорий Исупов: Fill matrixCalculate matrixBuffered: M=1, N=16, t=0.003 ms, P=3.151 GFLOP/s
+Buffered: M=1, N=16, t=0.003 ms, P=3.151 GFLOP/s
 Buffered: M=2, N=16, t=0.003 ms, P=3.277 GFLOP/s
 Buffered: M=4, N=16, t=0.003 ms, P=3.151 GFLOP/s
 Buffered: M=8, N=16, t=0.005 ms, P=1.743 GFLOP/s
@@ -45,7 +45,10 @@ Correctness:
 Classic vs Transposed : OK
 Classic vs Buffered   : OK
 Classic vs Blocked    : OK
-[23.03.2026 14:35] Григорий Исупов: Fill matrixCalculate matrixBuffered: M=1, N=32, t=0.020 ms, P=3.260 GFLOP/s
+
+
+
+Buffered: M=1, N=32, t=0.020 ms, P=3.260 GFLOP/s
 Buffered: M=2, N=32, t=0.017 ms, P=3.972 GFLOP/s
 Buffered: M=4, N=32, t=0.009 ms, P=6.972 GFLOP/s
 Buffered: M=8, N=32, t=0.009 ms, P=7.047 GFLOP/s
@@ -97,7 +100,10 @@ Correctness:
 Classic vs Transposed : OK
 Classic vs Buffered   : OK
 Classic vs Blocked    : OK
-[23.03.2026 14:35] Григорий Исупов: Fill matrixCalculate matrixBuffered: M=1, N=64, t=0.131 ms, P=4.002 GFLOP/s
+
+
+
+Buffered: M=1, N=64, t=0.131 ms, P=4.002 GFLOP/s
 Buffered: M=2, N=64, t=0.113 ms, P=4.636 GFLOP/s
 Buffered: M=4, N=64, t=0.103 ms, P=5.066 GFLOP/s
 Buffered: M=8, N=64, t=0.055 ms, P=9.515 GFLOP/s
@@ -154,8 +160,9 @@ Correctness:
 Classic vs Transposed : OK
 Classic vs Buffered   : OK
 Classic vs Blocked    : OK
-[23.03.2026 14:35] Григорий Исупов: Fill matrix
-Calculate matrix
+
+
+
 Buffered: M=1, N=128, t=0.540 ms, P=7.766 GFLOP/s
 Buffered: M=2, N=128, t=0.669 ms, P=6.271 GFLOP/s
 Buffered: M=4, N=128, t=0.410 ms, P=10.235 GFLOP/s
@@ -218,8 +225,9 @@ Correctness:
 Classic vs Transposed : OK
 Classic vs Buffered   : OK
 Classic vs Blocked    : OK
-[23.03.2026 14:36] Григорий Исупов: Fill matrix
-Calculate matrix
+
+
+
 Buffered: M=1, N=256, t=5.152 ms, P=6.513 GFLOP/s
 Buffered: M=2, N=256, t=3.168 ms, P=10.591 GFLOP/s
 Buffered: M=4, N=256, t=3.868 ms, P=8.675 GFLOP/s
@@ -287,8 +295,9 @@ Correctness:
 Classic vs Transposed : OK
 Classic vs Buffered   : OK
 Classic vs Blocked    : OK
-[23.03.2026 14:36] Григорий Исупов: Fill matrix
-Calculate matrix
+
+
+
 Buffered: M=1, N=512, t=44.929 ms, P=5.975 GFLOP/s
 Buffered: M=2, N=512, t=28.616 ms, P=9.381 GFLOP/s
 Buffered: M=4, N=512, t=26.034 ms, P=10.311 GFLOP/s
@@ -361,8 +370,9 @@ Correctness:
 Classic vs Transposed : OK
 Classic vs Buffered   : OK
 Classic vs Blocked    : OK
-[23.03.2026 14:38] Григорий Исупов: Fill matrix
-Calculate matrix
+
+
+
 Buffered: M=1, N=1024, t=371.941 ms, P=5.774 GFLOP/s
 Buffered: M=2, N=1024, t=206.802 ms, P=10.384 GFLOP/s
 Buffered: M=4, N=1024, t=205.215 ms, P=10.465 GFLOP/s
@@ -435,14 +445,14 @@ Blocked                N=1024  time=   205.591 ms  perf=    10.445 GFLOP/s
 Best parameters:
 Buffered: M = 8
 Blocked : S = 1024, M = 8
-[23.03.2026 14:38] Григорий Исупов:
 
 Correctness:
 Classic vs Transposed : OK
 Classic vs Buffered   : OK
 Classic vs Blocked    : OK
-[23.03.2026 14:48] Григорий Исупов: Fill matrix
-Calculate matrix
+
+
+
 Buffered: M=1, N=2048, t=3085.691 ms, P=5.568 GFLOP/s
 Buffered: M=2, N=2048, t=1864.631 ms, P=9.214 GFLOP/s
 Buffered: M=4, N=2048, t=1867.641 ms, P=9.199 GFLOP/s
@@ -510,7 +520,6 @@ Blocked: S=2048, M=8, N=2048, t=1941.594 ms, P=8.848 GFLOP/s
 Blocked: S=2048, M=16, N=2048, t=1945.205 ms, P=8.832 GFLOP/s
 Matrix multiplication benchmark
 N = 2048
-[23.03.2026 14:48] Григорий Исупов:
 
 Classic                N=2048  time= 34178.229 ms  perf=     0.503 GFLOP/s
 Transposed (+prep)     N=2048  time=  3074.380 ms  perf=     5.588 GFLOP/s
@@ -520,6 +529,97 @@ Blocked                N=2048  time=  1631.078 ms  perf=    10.533 GFLOP/s
 
 Best parameters:
 Buffered: M = 2
+Blocked : S = 1024, M = 8
+
+Correctness:
+Classic vs Transposed : OK
+Classic vs Buffered   : OK
+Classic vs Blocked    : OK
+
+
+Fill matrix
+Calculate matrix
+Buffered: M=1, N=4096, t=28582.933 ms, P=4.808 GFLOP/s
+Buffered: M=2, N=4096, t=21016.613 ms, P=6.540 GFLOP/s
+Buffered: M=4, N=4096, t=21126.779 ms, P=6.505 GFLOP/s
+Buffered: M=8, N=4096, t=20900.434 ms, P=6.576 GFLOP/s
+Buffered: M=16, N=4096, t=21475.689 ms, P=6.400 GFLOP/s
+Blocked: S=1, M=1, N=4096, t=415572.572 ms, P=0.331 GFLOP/s
+Blocked: S=1, M=2, N=4096, t=416003.390 ms, P=0.330 GFLOP/s
+Blocked: S=1, M=4, N=4096, t=418113.156 ms, P=0.329 GFLOP/s
+Blocked: S=1, M=8, N=4096, t=435841.060 ms, P=0.315 GFLOP/s
+Blocked: S=1, M=16, N=4096, t=453859.632 ms, P=0.303 GFLOP/s
+Blocked: S=2, M=1, N=4096, t=246479.774 ms, P=0.558 GFLOP/s
+Blocked: S=2, M=2, N=4096, t=253597.684 ms, P=0.542 GFLOP/s
+Blocked: S=2, M=4, N=4096, t=277763.560 ms, P=0.495 GFLOP/s
+Blocked: S=2, M=8, N=4096, t=273396.431 ms, P=0.503 GFLOP/s
+Blocked: S=2, M=16, N=4096, t=267441.670 ms, P=0.514 GFLOP/s
+Blocked: S=4, M=1, N=4096, t=74907.401 ms, P=1.835 GFLOP/s
+Blocked: S=4, M=2, N=4096, t=73258.515 ms, P=1.876 GFLOP/s
+Blocked: S=4, M=4, N=4096, t=71755.717 ms, P=1.915 GFLOP/s
+Blocked: S=4, M=8, N=4096, t=77156.341 ms, P=1.781 GFLOP/s
+Blocked: S=4, M=16, N=4096, t=73766.087 ms, P=1.863 GFLOP/s
+Blocked: S=8, M=1, N=4096, t=59369.177 ms, P=2.315 GFLOP/s
+Blocked: S=8, M=2, N=4096, t=58326.760 ms, P=2.356 GFLOP/s
+Blocked: S=8, M=4, N=4096, t=59468.347 ms, P=2.311 GFLOP/s
+Blocked: S=8, M=8, N=4096, t=60609.727 ms, P=2.268 GFLOP/s
+Blocked: S=8, M=16, N=4096, t=58621.256 ms, P=2.345 GFLOP/s
+Blocked: S=16, M=1, N=4096, t=28054.036 ms, P=4.899 GFLOP/s
+Blocked: S=16, M=2, N=4096, t=27935.877 ms, P=4.920 GFLOP/s
+Blocked: S=16, M=4, N=4096, t=27820.047 ms, P=4.940 GFLOP/s
+Blocked: S=16, M=8, N=4096, t=26851.032 ms, P=5.119 GFLOP/s
+Blocked: S=16, M=16, N=4096, t=27883.904 ms, P=4.929 GFLOP/s
+Blocked: S=32, M=1, N=4096, t=21557.749 ms, P=6.375 GFLOP/s
+Blocked: S=32, M=2, N=4096, t=21199.926 ms, P=6.483 GFLOP/s
+Blocked: S=32, M=4, N=4096, t=21003.686 ms, P=6.544 GFLOP/s
+Blocked: S=32, M=8, N=4096, t=20878.618 ms, P=6.583 GFLOP/s
+Blocked: S=32, M=16, N=4096, t=21852.973 ms, P=6.289 GFLOP/s
+Blocked: S=64, M=1, N=4096, t=19019.608 ms, P=7.226 GFLOP/s
+Blocked: S=64, M=2, N=4096, t=17573.831 ms, P=7.821 GFLOP/s
+Blocked: S=64, M=4, N=4096, t=17259.372 ms, P=7.963 GFLOP/s
+Blocked: S=64, M=8, N=4096, t=16718.532 ms, P=8.221 GFLOP/s
+Blocked: S=64, M=16, N=4096, t=17432.715 ms, P=7.884 GFLOP/s
+Blocked: S=128, M=1, N=4096, t=19470.780 ms, P=7.059 GFLOP/s
+Blocked: S=128, M=2, N=4096, t=16577.509 ms, P=8.291 GFLOP/s
+Blocked: S=128, M=4, N=4096, t=15636.459 ms, P=8.790 GFLOP/s
+Blocked: S=128, M=8, N=4096, t=16303.065 ms, P=8.430 GFLOP/s
+Blocked: S=128, M=16, N=4096, t=17211.871 ms, P=7.985 GFLOP/s
+Blocked: S=256, M=1, N=4096, t=23036.399 ms, P=5.966 GFLOP/s
+Blocked: S=256, M=2, N=4096, t=16097.769 ms, P=8.538 GFLOP/s
+Blocked: S=256, M=4, N=4096, t=15225.728 ms, P=9.027 GFLOP/s
+Blocked: S=256, M=8, N=4096, t=17698.771 ms, P=7.765 GFLOP/s
+Blocked: S=256, M=16, N=4096, t=16345.126 ms, P=8.409 GFLOP/s
+Blocked: S=512, M=1, N=4096, t=24604.206 ms, P=5.586 GFLOP/s
+Blocked: S=512, M=2, N=4096, t=15964.439 ms, P=8.609 GFLOP/s
+Blocked: S=512, M=4, N=4096, t=14655.033 ms, P=9.378 GFLOP/s
+Blocked: S=512, M=8, N=4096, t=14059.944 ms, P=9.775 GFLOP/s
+Blocked: S=512, M=16, N=4096, t=14911.156 ms, P=9.217 GFLOP/s
+Blocked: S=1024, M=1, N=4096, t=25223.272 ms, P=5.449 GFLOP/s
+Blocked: S=1024, M=2, N=4096, t=14387.922 ms, P=9.552 GFLOP/s
+Blocked: S=1024, M=4, N=4096, t=14083.178 ms, P=9.759 GFLOP/s
+Blocked: S=1024, M=8, N=4096, t=13838.368 ms, P=9.932 GFLOP/s
+Blocked: S=1024, M=16, N=4096, t=14715.656 ms, P=9.340 GFLOP/s
+Blocked: S=2048, M=1, N=4096, t=26478.532 ms, P=5.191 GFLOP/s
+Blocked: S=2048, M=2, N=4096, t=16591.481 ms, P=8.284 GFLOP/s
+Blocked: S=2048, M=4, N=4096, t=16413.331 ms, P=8.374 GFLOP/s
+Blocked: S=2048, M=8, N=4096, t=16442.402 ms, P=8.359 GFLOP/s
+Blocked: S=2048, M=16, N=4096, t=17468.373 ms, P=7.868 GFLOP/s
+Blocked: S=4096, M=1, N=4096, t=30269.314 ms, P=4.541 GFLOP/s
+Blocked: S=4096, M=2, N=4096, t=22199.664 ms, P=6.191 GFLOP/s
+Blocked: S=4096, M=4, N=4096, t=22273.048 ms, P=6.171 GFLOP/s
+Blocked: S=4096, M=8, N=4096, t=22291.443 ms, P=6.166 GFLOP/s
+Blocked: S=4096, M=16, N=4096, t=22898.649 ms, P=6.002 GFLOP/s
+Matrix multiplication benchmark
+N = 4096
+
+Classic                N=4096  time=267054.338 ms  perf=     0.515 GFLOP/s
+Transposed (+prep)     N=4096  time= 28535.033 ms  perf=     4.816 GFLOP/s
+Transposed only        N=4096  time= 28354.902 ms  perf=     4.847 GFLOP/s
+Buffered               N=4096  time= 20898.184 ms  perf=     6.577 GFLOP/s
+Blocked                N=4096  time= 13945.791 ms  perf=     9.855 GFLOP/s
+
+Best parameters:
+Buffered: M = 8
 Blocked : S = 1024, M = 8
 
 Correctness:
