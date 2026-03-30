@@ -5,4 +5,5 @@
   </Configurations>
   <Project Path="lab1-time-measurement/lab1-time-measurement.vcxproj" Id="37627a03-ddca-427f-9610-2af7217b1f5f" />
   <Project Path="lab2-matrix-optimization/lab2-matrix-optimization.vcxproj" Id="e61f014e-27d4-4447-a54b-3feab9cbf287" />
+  <Project Path="lab3-cpuid/lab3-cpuid.vcxproj" Id="3d4a676b-df77-4bea-a244-6e3e42ce3692" />
 </Solution>
