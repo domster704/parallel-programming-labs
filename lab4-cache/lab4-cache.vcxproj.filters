@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="cpuid.cpp">
+    <ClCompile Include="cache.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
   </ItemGroup>

@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>18.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{3d4a676b-df77-4bea-a244-6e3e42ce3692}</ProjectGuid>
-    <RootNamespace>lab3cpuid</RootNamespace>
+    <ProjectGuid>{c8fff5cc-01a3-4478-81fa-39c9fa032521}</ProjectGuid>
+    <RootNamespace>lab4cache</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -127,7 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="cpuid.cpp" />
+    <ClCompile Include="cache.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

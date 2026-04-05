@@ -1,0 +1,4 @@
+mode,effective,L1,L2,L3,RAM
+sequential,1.53727,,,,
+random,,16.38675,16.5105,17.1354,17.3675
+random_precomputed,,1.64017,1.52043,1.5206,1.66007
