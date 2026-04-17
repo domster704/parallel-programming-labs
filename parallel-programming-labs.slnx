@@ -7,4 +7,5 @@
   <Project Path="lab2-matrix-optimization/lab2-matrix-optimization.vcxproj" Id="e61f014e-27d4-4447-a54b-3feab9cbf287" />
   <Project Path="lab3-cpuid/lab3-cpuid.vcxproj" Id="3d4a676b-df77-4bea-a244-6e3e42ce3692" />
   <Project Path="lab4-cache/lab4-cache.vcxproj" Id="c8fff5cc-01a3-4478-81fa-39c9fa032521" />
+  <Project Path="lab5-vector-ops/lab5-vector-ops.vcxproj" Id="490f5d54-fbf9-4865-ac86-7c36c1291b90" />
 </Solution>
