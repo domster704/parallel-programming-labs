@@ -9,4 +9,5 @@
   <Project Path="lab4-cache/lab4-cache.vcxproj" Id="c8fff5cc-01a3-4478-81fa-39c9fa032521" />
   <Project Path="lab5-vector-ops/lab5-vector-ops.vcxproj" Id="490f5d54-fbf9-4865-ac86-7c36c1291b90" />
   <Project Path="lab7-sobel/lab7-sobel.vcxproj" Id="74738c80-7a34-4b49-863e-d13ff40a0f82" />
+  <Project Path="lab8-cuda/lab8-cuda.vcxproj" Id="046531ff-af33-4f60-9328-9facd75f3b7b" />
 </Solution>
