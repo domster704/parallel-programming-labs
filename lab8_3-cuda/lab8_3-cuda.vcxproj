@@ -11,8 +11,8 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{5B1F4F2B-3217-2BCB-377B-89AA612C9BC7}</ProjectGuid>
-    <RootNamespace>lab8_2_cuda</RootNamespace>
+    <ProjectGuid>{78C475AA-8E22-4049-9EDE-F8D7D5428273}</ProjectGuid>
+    <RootNamespace>lab8_3_cuda</RootNamespace>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">

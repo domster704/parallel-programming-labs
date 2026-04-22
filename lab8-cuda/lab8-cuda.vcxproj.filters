@@ -20,6 +20,6 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="kernel.cu" />
+    <CudaCompile Include="kernel.cu" />
   </ItemGroup>
 </Project>

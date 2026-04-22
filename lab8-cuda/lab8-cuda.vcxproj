@@ -55,6 +55,7 @@
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
   <ImportGroup Label="ExtensionSettings">
+    <Import Project="$(VCTargetsPath)\BuildCustomizations\CUDA 13.2.props" />
   </ImportGroup>
   <ImportGroup Label="Shared">
   </ImportGroup>
@@ -131,9 +132,13 @@
     <ClCompile Include="main-cuda.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="kernel.cu" />
+    <CudaCompile Include="kernel.cu">
+      <FileType>Document</FileType>
+      <CodeGeneration Condition="'$(Configuration)|$(Platform)'=='Release|x64'">compute_89,sm_89</CodeGeneration>
+    </CudaCompile>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
+    <Import Project="$(VCTargetsPath)\BuildCustomizations\CUDA 13.2.targets" />
   </ImportGroup>
 </Project>

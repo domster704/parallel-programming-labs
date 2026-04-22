@@ -13,4 +13,7 @@
   <Project Path="lab8_2-cuda/lab8_2-cuda.vcxproj">
     <Platform Project="x64" />
   </Project>
+  <Project Path="lab8_3-cuda/lab8_3-cuda.vcxproj">
+    <Platform Project="x64" />
+  </Project>
 </Solution>
